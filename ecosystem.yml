@@ -1,5 +1,6 @@
 apps:
-  - script     : ./dist/server.js
+  - script     : ./server.js
+    cwd        : "./dist"
     name       : 'ppfun-server'
     node_args  : --expose-gc
     watch      : [ 'server.js' ]
