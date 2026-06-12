@@ -5,12 +5,12 @@ apps:
     watch      : [ 'server.js' ]
     watch_delay: 5000
     env:
-      PORT: 3500
-      HOST: "localhost"
-      REDIS_URL: 'redis://localhost:6379'
-      MYSQL_HOST: "localhost"
-      MYSQL_USER: "pixelplanet"
-      MYSQL_DATABASE: "pixelplanet"
-      MYSQL_PW: "pixelplanet123"
-      SESSION_SECRET: "your-secret-key-change-this"
-
+      PORT: 10000
+      HOST: "0.0.0.0"
+      REDIS_URL: "rediss://default:gQAAAAAAAjk9AAIgcDIwNWJkN2NjNDFjY2U0ZDVlOGZlNDY5YzIzNGYyZmQwMw@exciting-oryx-145725.upstash.io:6379"
+      MYSQL_HOST: "mysql-8521f6-pixelplanet.k.aivencloud.com"
+      MYSQL_PORT: 19602
+      MYSQL_USER: "avnadmin"
+      MYSQL_DATABASE: "defaultdb"
+      MYSQL_PW: "AVNS_b5cdOn7Kje2PhAjUhso"
+      SESSION_SECRET: "pixelplanet-super-secret-key-2026"
